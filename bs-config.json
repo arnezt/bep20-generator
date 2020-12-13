@@ -1,0 +1,5 @@
+{
+  "server": {
+    "baseDir": ["./web-console", "./build/contracts"]
+  }
+}
