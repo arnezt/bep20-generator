@@ -1,7 +1,7 @@
 const { BN, constants, expectEvent, expectRevert } = require('@openzeppelin/test-helpers');
 const { ZERO_ADDRESS } = constants;
 
-const { shouldBehaveLikeOwnable } = require('eth-token-recover/test/access/Ownable.behavior');
+const { shouldBehaveLikeOwnable } = require('../../../access/Ownable.behavior');
 
 function shouldBehaveLikeBEP20 (name, symbol, decimals, initialBalance, [owner, other, thirdParty]) {
   it('has a name', async function () {

@@ -4,9 +4,8 @@ pragma solidity ^0.7.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "./lib/BEP20Capped.sol";
+import "./lib/BEP20Mintable.sol";
 import "./lib/BEP20Burnable.sol";
-
-import "./behaviours/BEP20Mintable.sol";
 
 import "../../service/ServicePayer.sol";
 

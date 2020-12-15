@@ -2,7 +2,7 @@
 
 pragma solidity ^0.7.0;
 
-import "./behaviours/BEP20Mintable.sol";
+import "./lib/BEP20Mintable.sol";
 
 import "../../service/ServicePayer.sol";
 

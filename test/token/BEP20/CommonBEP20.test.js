@@ -1,7 +1,5 @@
 const { BN, ether, expectRevert } = require('@openzeppelin/test-helpers');
 
-const { shouldBehaveLikeOwnable } = require('eth-token-recover/test/access/Ownable.behavior');
-
 const { shouldBehaveLikeBEP20 } = require('./behaviours/BEP20.behaviour');
 const { shouldBehaveLikeBEP20Burnable } = require('./behaviours/BEP20Burnable.behaviour');
 const { shouldBehaveLikeBEP20Capped } = require('./behaviours/BEP20Capped.behaviour');
@@ -158,14 +156,6 @@ contract('CommonBEP20', function ([owner, other, thirdParty]) {
           );
         });
       });
-    });
-
-    context('like a Ownable', function () {
-      beforeEach(async function () {
-        this.ownable = this.token;
-      });
-
-      shouldBehaveLikeOwnable(owner, [thirdParty]);
     });
   });
 });

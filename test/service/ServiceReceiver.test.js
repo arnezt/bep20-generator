@@ -2,7 +2,7 @@ const { balance, ether, expectEvent, expectRevert } = require('@openzeppelin/tes
 
 const { expect } = require('chai');
 
-const { shouldBehaveLikeTokenRecover } = require('eth-token-recover/test/TokenRecover.behaviour');
+const { shouldBehaveLikeOwnable } = require('../access/Ownable.behavior');
 
 const ServiceReceiver = artifacts.require('ServiceReceiver');
 
@@ -109,12 +109,12 @@ contract('ServiceReceiver', function ([owner, thirdParty]) {
       });
     });
 
-    context('like a TokenRecover', function () {
+    context('like a Ownable', function () {
       beforeEach(async function () {
-        this.instance = this.serviceReceiver;
+        this.ownable = this.serviceReceiver;
       });
 
-      shouldBehaveLikeTokenRecover([owner, thirdParty]);
+      shouldBehaveLikeOwnable(owner, [thirdParty]);
     });
   });
 });

@@ -2,13 +2,13 @@
 
 pragma solidity ^0.7.0;
 
-import "eth-token-recover/contracts/TokenRecover.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
  * @title ServiceReceiver
  * @dev Implementation of the ServiceReceiver
  */
-contract ServiceReceiver is TokenRecover {
+contract ServiceReceiver is Ownable {
 
     mapping (bytes32 => uint256) private _prices;
 
