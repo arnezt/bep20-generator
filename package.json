@@ -1,0 +1,47 @@
+{
+  "title": "BEP20 Token Generator",
+  "name": "bep20-generator",
+  "version": "1.0.0",
+  "description": "Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.",
+  "scripts": {
+    "lint": "eslint .vuepress",
+    "lint:fix": "eslint .vuepress --fix",
+    "dev": "vuepress dev",
+    "build": "vuepress build",
+    "deploy": "vuepress build && sh scripts/deploy.sh"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vittominacori/bep20-generator/issues"
+  },
+  "license": "MIT",
+  "author": "Vittorio Minacori (https://github.com/vittominacori)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vittominacori/bep20-generator.git"
+  },
+  "dependencies": {
+    "@saeris/vue-spinners": "^1.0.8",
+    "bootstrap-vue": "^2.20.1",
+    "vee-validate": "^3.4.5",
+    "vue-carousel": "^0.18.0",
+    "vue2-smooth-scroll": "^1.5.0",
+    "web3": "^1.3.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.7.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.2.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vue-eslint-parser": "^7.2.0",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-facebook-pixel": "^1.0.0"
+  }
+}
