@@ -2,6 +2,17 @@
 component: Home
 title: BEP20 Token Generator | Create BEP20 Token for FREE
 description: Create an BEP20 Token in less than a minute with the new Smart Contract Generator for BEP20 Token. No login. No setup. No coding required.
+meta:
+    - property: twitter:title
+      content: BEP20 Token Generator | Create BEP20 Token for FREE
+    - property: og:title
+      content: BEP20 Token Generator | Create BEP20 Token for FREE
+    - property: twitter:description
+      content: Create an BEP20 Token in less than a minute with the new Smart Contract Generator for BEP20 Token. No login. No setup. No coding required.
+    - property: og:description
+      content: Create an BEP20 Token in less than a minute with the new Smart Contract Generator for BEP20 Token. No login. No setup. No coding required.
+    - property: og:url
+      content: https://vittominacori.github.io/bep20-generator/
 ---
 
 # BEP20 Token Generator - DAPP

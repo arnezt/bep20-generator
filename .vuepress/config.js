@@ -5,11 +5,9 @@ module.exports = {
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: 'https://vittominacori.github.io/bep20-generator' }],
     ['meta', { property: 'og:image', content: 'https://vittominacori.github.io/bep20-generator/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { property: 'twitter:image', content: 'https://vittominacori.github.io/bep20-generator/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
-    ['meta', { property: 'twitter:title', content: 'BEP20 Token Generator | Create BEP20 Token for FREE' }],
     ['script', { src: '/assets/js/web3.min.js' }],
     ['script',
       {
