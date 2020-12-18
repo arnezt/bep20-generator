@@ -38,7 +38,7 @@
             </b-col>
         </b-row>
         <b-row id="pricing" class="aqua-gradient mx-0">
-            <b-col lg="12" xl="10" offset-xl="1" class="mt-5">
+            <b-col lg="12" xl="10" offset-xl="1" class="py-5">
                 <h2 class="p-5 font-weight-lighter text-center text-light">Pricing</h2>
                 <ui--pricing-table></ui--pricing-table>
             </b-col>
