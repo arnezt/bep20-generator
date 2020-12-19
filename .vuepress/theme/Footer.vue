@@ -18,13 +18,13 @@
                             <b-list-group-item to="/create-token/" class="text-light">
                                 Create BEP20 Token
                             </b-list-group-item>
+                            <b-list-group-item href="https://vittominacori.github.io/erc20-generator/" target="_blank" class="text-warning">
+                                Create ERC20 Token
+                            </b-list-group-item>
                         </b-list-group>
                     </b-col>
                     <b-col lg="4">
                         <b-list-group flush>
-                            <b-list-group-item v-b-modal.modal-feedback class="text-warning">
-                                <small>Leave a Feedback</small>
-                            </b-list-group-item>
                             <b-list-group-item v-b-modal.modal-terms>
                                 <small>Terms of Use</small>
                             </b-list-group-item>
@@ -46,19 +46,6 @@
                 </b-list-group>
             </b-col>
         </b-row>
-        <b-modal id="modal-feedback"
-                 title="Leave a Feedback"
-                 size="lg"
-                 centered
-                 hide-footer>
-            <b-embed
-                    type="iframe"
-                    aspect="4by3"
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSe62q73MmB4_irkkI-HF9QWUpdIVDk8c7zF9UMy16g6n-KQbA/viewform?embedded=true"
-                    allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
-                    allowfullscreen
-            ></b-embed>
-        </b-modal>
         <b-modal id="modal-terms"
                  title="Terms of Use"
                  size="lg"
@@ -67,7 +54,7 @@
             <b-embed
                     type="iframe"
                     aspect="4by3"
-                    src="https://vittominacori.github.io/erc20-generator-terms/"
+                    src="https://vittominacori.github.io/bep20-generator-terms/"
                     allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
                     allowfullscreen
             ></b-embed>

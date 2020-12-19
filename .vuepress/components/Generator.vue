@@ -52,11 +52,6 @@
                                     <b-icon-arrow-up-right-circle-fill></b-icon-arrow-up-right-circle-fill>
                                     View on BscScan
                                 </b-link>
-                                <div class="text-right">
-                                    <b-link v-b-modal.modal-feedback class="text-info">
-                                        <small>Leave a Feedback</small>
-                                    </b-link>
-                                </div>
                             </div>
                         </div>
                     </b-card>
