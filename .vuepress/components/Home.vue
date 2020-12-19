@@ -5,7 +5,7 @@
                      class="mb-0 blue-gradient"
                      fluid>
             <template #lead>
-                Create an BEP20 Token in less than a minute with the new Smart Contract Generator for BEP20 Token.
+                Create a BEP20 Token in less than a minute with the new Smart Contract Generator for BEP20 Token.
                 <br>
                 No login. No setup. No coding required.
             </template>
@@ -25,7 +25,7 @@
             <b-col lg="8" offset-lg="2" class="mb-3">
                 <h2 class="p-5 font-weight-lighter text-center text-dark">How it works</h2>
                 <h4 class="text-center font-weight-light">
-                    Create an BEP20 Token in less than a minute.
+                    Create a BEP20 Token in less than a minute.
                 </h4>
                 <p class="text-center font-weight-light">
                     Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.

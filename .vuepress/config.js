@@ -1,5 +1,5 @@
 module.exports = {
-  description: 'Create an BEP20 Token in less than a minute with the new Smart Contract Generator for BEP20 Token. No login. No setup. No coding required.',
+  description: 'Create a BEP20 Token in less than a minute with the new Smart Contract Generator for BEP20 Token. No login. No setup. No coding required.',
   base: '/bep20-generator/',
   head: [
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],

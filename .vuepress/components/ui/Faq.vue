@@ -5,7 +5,7 @@
                 <b-card bg-variant="light" class="mb-4">
                     <h3 class="font-weight-light">BEP20 Token Generator</h3>
                     <p class="font-weight-light">
-                        Create an BEP20 Token in less than a minute with the new Smart Contract Generator for
+                        Create a BEP20 Token in less than a minute with the new Smart Contract Generator for
                         BEP20 Token. No login. No setup. No coding required.
                     </p>
                     <hr class="my-4">
