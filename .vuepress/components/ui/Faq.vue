@@ -363,10 +363,17 @@
                             <b-collapse id="what-is-bsc" class="p-4" accordion="bsc-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
-                                        TODO
+                                        Binance Chain was launched by Binance in April 2019. Its primary focus is to
+                                        facilitate fast, decentralized (or non-custodial) trading.<br>
+                                        Binance Smart Chain (BSC) is best described as a blockchain that runs in
+                                        parallel to the Binance Chain. Unlike Binance Chain, BSC boasts smart contract
+                                        functionality and compatibility with the Ethereum Virtual Machine (EVM).
+                                        The design goal here was to leave the high throughput of Binance Chain intact
+                                        while introducing smart contracts into its ecosystem.
                                     </span>
                                 </b-card-text>
-                                <b-link href="#" class="card-link" target="_blank">
+                                <b-link href="https://docs.binance.org/smart-chain/guides/bsc-intro.html"
+                                        class="card-link" target="_blank">
                                     BSC official website
                                 </b-link>
                             </b-collapse>
@@ -468,10 +475,19 @@
                             <b-collapse id="what-is-a-bep20-token" class="p-4" accordion="bsc-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
-                                        TODO
+                                        BEP-20 is a token standard on Binance Smart Chain that extends ERC-20, the most
+                                        common Ethereum token standard. You can think of it as a blueprint for tokens
+                                        that defines how they can be spent, who can spend them, and other rules for
+                                        their usage. Due to its similarity to Binance Chain’s BEP-2 and Ethereum’s
+                                        ERC-20, it’s compatible with both.<br>
+                                        BEP-20 was conceived as a technical specification for Binance Smart Chain,
+                                        with the goal of providing a flexible format for developers to launch a
+                                        range of different tokens. These could represent anything from shares in a
+                                        business to dollars stored in a bank vault (i.e., a stablecoin).
                                     </span>
                                 </b-card-text>
-                                <b-link href="#" class="card-link" target="_blank">
+                                <b-link href="https://github.com/binance-chain/BEPs/blob/master/BEP20.md"
+                                        class="card-link" target="_blank">
                                     BEP20 Technical specification
                                 </b-link>
                             </b-collapse>
@@ -492,13 +508,19 @@
                             <b-collapse id="what-is-gas" class="p-4" accordion="bsc-accordion">
                                 <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                                     <span itemprop="text">
-                                        TODO
+                                        "Gas" is the name for a special unit used in BSC. It measures how much
+                                        "work" an action or set of actions takes to perform.<br>
+                                        Every operation that can be performed by a transaction or contract on the
+                                        Ethereum platform costs a certain number of gas, with operations that require
+                                        more computational resources costing more gas than operations that require few
+                                        computational resources.<br>
+                                        The reason gas is important is that it helps to ensure an appropriate fee is
+                                        being paid by transactions submitted to the network. By requiring that a
+                                        transaction pay for each operation it performs (or causes a contract to
+                                        perform), we ensure that network doesn't become bogged down with performing
+                                        a lot of intensive work that isn't valuable to anyone.
                                     </span>
                                 </b-card-text>
-                                <b-link href="#"
-                                        class="card-link" target="_blank">
-                                    Good explanation of Gas
-                                </b-link>
                                 <b-link href="https://bscscan.com/gastracker"
                                         class="card-link" target="_blank">
                                     BscScan Gas tracker

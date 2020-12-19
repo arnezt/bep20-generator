@@ -309,7 +309,7 @@
                                                 You selected a TEST Network.
                                             </strong>
                                             <hr>
-                                            To deploy on Main Network you must select Main Ethereum Network.
+                                            To deploy on Main Network you must select Binance Smart Chain.
                                         </b-alert>
                                     </b-card>
                                     <b-card header="Agreement"
@@ -352,7 +352,7 @@
                                                     Commission Fee:
                                                     <b-icon-info-circle v-b-popover.v-warning.hover.top="
                                                         'Commission will be transferred directly to us through the ' +
-                                                        'Ethereum network as part of your payment. ' +
+                                                        'BSC network as part of your payment. ' +
                                                         'Commission will support BEP20 Token Generator to keep it ' +
                                                         'safe, running and constantly updated.'">
                                                         </b-icon-info-circle>
