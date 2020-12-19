@@ -19,7 +19,8 @@
                     <b-alert show variant="danger" v-if="!metamask.installed">
                         <h4 class="alert-heading">Alert</h4>
                         <p>
-                            To use this app please install <a href="https://metamask.io/" target="_blank">MetaMask</a>.
+                            To use this app please install
+                            <b-link href="https://metamask.io/" target="_blank">MetaMask</b-link>.
                             Use any other wallet at your own risk.
                         </p>
                     </b-alert>
@@ -36,7 +37,7 @@
                         <div v-else>
                             <b class="text-success">Well! Transaction done!</b><br>
                             Transaction Hash:
-                            <a :href="trx.link" target="_blank"><span v-html="trx.hash"></span></a><br>
+                            <b-link :href="trx.link" target="_blank"><span v-html="trx.hash"></span></b-link><br>
                             <hr>
                             <div v-if="!token.address">
                                 <b>Retrieving Token.</b>
@@ -303,7 +304,6 @@
                                                 </option>
                                             </b-form-select>
                                         </b-form-group>
-
                                         <b-alert show variant="warning" v-if="currentNetwork !== 'mainnet'">
                                             <strong>
                                                 You selected a TEST Network.
@@ -311,6 +311,10 @@
                                             <hr>
                                             To deploy on Main Network you must select Binance Smart Chain.
                                         </b-alert>
+                                        <b-link href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain"
+                                                target="_blank">
+                                            <small>How to connect MetaMask to Binance Smart Chain?</small>
+                                        </b-link>
                                     </b-card>
                                     <b-card header="Agreement"
                                             header-bg-variant="dark"

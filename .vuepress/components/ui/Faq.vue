@@ -11,8 +11,10 @@
                     <hr class="my-4">
                     <h6 class="font-weight-light">The BEP20 Standard</h6>
                     <p class="font-weight-light">
-                        BEP20 provides basic functionality to transfer tokens, as well as allow tokens to be approved so
-                        they can be spent by another on-chain third party.
+                        BEP20 defines the implementation of APIs for token smart contracts. It is proposed by deriving
+                        the ERC20 protocol of Ethereum and provides the basic functionality to transfer tokens,
+                        allow tokens to be approved so they can be spent by another on-chain third party, and transfer
+                        between Binance Chain and Binance Smart Chain.
                     </p>
                 </b-card>
             </b-col>
@@ -524,6 +526,53 @@
                                 <b-link href="https://bscscan.com/gastracker"
                                         class="card-link" target="_blank">
                                     BscScan Gas tracker
+                                </b-link>
+                            </b-collapse>
+                        </b-card>
+                        <b-card no-body
+                                bg-variant="light"
+                                itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <b-card-header role="tab">
+                                <a v-b-toggle
+                                   href="#connect-metamask-to-bsc"
+                                   @click.prevent
+                                   class="btn-block text-reset text-decoration-none">
+                                    <span itemprop="name">
+                                        How to connect MetaMask to Binance Smart Chain
+                                    </span>
+                                </a>
+                            </b-card-header>
+                            <b-collapse id="connect-metamask-to-bsc" class="p-4" accordion="bsc-accordion">
+                                <b-card-text itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                    <span itemprop="text">
+                                        You need to access the <b>Settings</b> to point the wallet towards Binance Smart
+                                        Chain nodes. On the Settings page, locate the <b>Networks</b> menu.
+                                        Click <b>Add Network</b> in the top-right corner to manually add the Binance
+                                        Smart Chain one.<br>
+                                        There are two networks we can use here:
+                                        the testnet or the mainnet. Below are the parameters to fill in for each.
+                                        <br><br>
+                                        <b>Mainnet (This is the one you are probably looking for)</b>
+                                        <ul>
+                                            <li>Network Name: Binance Smart Chain</li>
+                                            <li>New RPC URL: https://bsc-dataseed.binance.org/</li>
+                                            <li>ChainID: 56</li>
+                                            <li>Symbol: BNB</li>
+                                            <li>Block Explorer URL: https://bscscan.com</li>
+                                        </ul>
+                                        <b>Testnet</b>
+                                        <ul>
+                                            <li>Network Name: Binance Smart Chain - Testnet</li>
+                                            <li>New RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545/</li>
+                                            <li>ChainID: 97</li>
+                                            <li>Symbol: BNB</li>
+                                            <li>Block Explorer URL: https://testnet.bscscan.com</li>
+                                        </ul>
+                                    </span>
+                                </b-card-text>
+                                <b-link href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain"
+                                        class="card-link" target="_blank">
+                                    More details
                                 </b-link>
                             </b-collapse>
                         </b-card>
