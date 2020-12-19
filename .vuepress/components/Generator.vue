@@ -641,7 +641,14 @@
           params.push(initialBalance);
           break;
         case 'StandardBEP20':
+        case 'BurnableBEP20':
+        case 'MintableBEP20':
           params.push(decimals);
+          params.push(initialBalance);
+          break;
+        case 'CommonBEP20':
+          params.push(decimals);
+          params.push(cap);
           params.push(initialBalance);
           break;
         default:

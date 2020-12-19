@@ -13,7 +13,7 @@
                 <b-modal id="modal-tutorial"
                          size="lg"
                          ok-only
-                         title="ERC20 Token Generation Tutorial">
+                         title="BEP20 Token Generation Tutorial">
                     <b-embed
                             type="iframe"
                             aspect="16by9"
