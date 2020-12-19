@@ -44,7 +44,7 @@ export default {
         },
       },
       serviceReceiver: {
-        mainnet: '0x1f82770FCA99FdFB422eb863Ec6CA3CACc600cFB', // todo
+        mainnet: '0x1Ce6597baB219e627Cc54Ecd8b6Bd613DDD5b4a1',
         testnet: '0x1f82770FCA99FdFB422eb863Ec6CA3CACc600cFB',
       },
       tokenList: {
